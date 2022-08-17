@@ -1,0 +1,86 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    color: rgb(255, 120, 0);
+    font-size: 30px;
+}
+nav {
+    background-color: white;
+    box-shadow: black 0px 5px 40px ;
+}
+#icon {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.spf{
+    color: #130f40;
+}
+.showcase {
+    height: 55vh;
+    margin-top: 75px;
+    background-image: url(../img/banner-bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.headin {
+    margin-top: 100px;
+}
+.org, .spf:hover, .user {
+    color: rgb(255, 120, 0);
+}
+#clk:hover {
+    background-color: rgb(255, 120, 0);
+}
+#features span, #product span, #category span, #reviews span, #blog span {
+    padding: 10px 30px;
+    background-color: rgb(255, 120, 0);
+    color: white;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+#crd {
+    box-shadow: 0 20px 50px rgb(0 5 24 / 40%);
+}
+#product>div, #category>div, #reviews>div, #blog>div {
+    margin-top: 130px;
+}
+#product .card img, #product .card-body {
+    margin-top: -50px;
+}
+#crd2 {
+    box-shadow: 0 10px 20px rgb(0 5 24 / 40%);
+}
+.star, .footer>p span {
+    color: rgb(255, 120, 0);
+}
+.card-body img {
+    width: 80px;
+}
+.card-date {
+    border-bottom: #130f40 solid 1px;
+}
+.blog-title {
+    font-weight: 800;
+    color: #130f40;
+}
+.footer {
+    background-color: white;
+}
+.footer-content {
+    border-bottom: #130f40 solid 2px;
+}
+.footer h2 {
+    color: #130f40;
+    font-weight: 700;
+}
